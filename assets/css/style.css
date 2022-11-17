@@ -1,0 +1,12 @@
+html {
+    background: #0f1424;
+}
+
+.main-container {
+    background: white;
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
