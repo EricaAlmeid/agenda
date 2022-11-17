@@ -4,9 +4,29 @@ html {
 
 .main-container {
     background: white;
-    display: grid;
+    display: flex;
     width: 80%;
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 10%;  
+}
+
+.teste {
+    background: green;
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    
+}
+
+.ficheiro {
+    background: red;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10%;
+    box-sizing: border-box;
 }
 
